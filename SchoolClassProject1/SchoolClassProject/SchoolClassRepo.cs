@@ -10,11 +10,6 @@ namespace SchoolClassProject
     {
         public List<SchoolClass> _schoolClass = new List<SchoolClass>();
         
-        public void HozzaAD(SchoolClass schoolClass)
-        {
-            _schoolClass.Add(schoolClass);
-        }
-
         public SchoolClassRepo(List<SchoolClass> schoolClasses)
         {
             _schoolClass = schoolClasses;
